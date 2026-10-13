@@ -4,14 +4,14 @@ An interactive dice game built with React. The goal is to get all ten dice to sh
 
 Players can hold individual dice to preserve their values between rolls. Once all dice match, the game celebrates the victory and allows the player to start a new round.
 
-🔗 **[View Live Demo](YOUR_DEPLOYED_URL_HERE)**
+🔗 **[View Live Demo](https://tenziesincar.netlify.app/)**
 
 ---
 
 ## 📸 Preview
 
 <p align="center">
-  <img src="./preview.gif" alt="Tenzies game preview" width="500">
+  <img src="./preview.gif" alt="Tenzies game preview" width="700">
 </p>
 
 ---
