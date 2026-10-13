@@ -34,7 +34,7 @@ export default function App() {
                     die :
                     { ...die, value: Math.ceil(Math.random() * 6) }
             ))
-            setNumRolls(prev => prev += 1)
+            setNumRolls(prev => prev + 1)
         } else {
             setDice(generateAllNewDice())
             setNumRolls(0)
@@ -68,7 +68,7 @@ export default function App() {
             <h1 className="title">Tenzies</h1>
             <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
             <p className="instructions">Try to roll the dice as minimum as possible!</p>
-            <p className="numRolls">Number or rolls: {numRolls}</p>
+            <p className="numRolls">Number of rolls: {numRolls}</p>
             <div className="dice-container">
                 {diceElements}
             </div>
